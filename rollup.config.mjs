@@ -27,7 +27,7 @@ export default {
           dest: "dist/cjs",
         },
         {
-          src: "./src/next.js",
+          src: "./src/next-config.js",
           dest: "dist/cjs",
         },
       ],

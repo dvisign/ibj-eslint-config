@@ -1,6 +1,6 @@
-const path = require("path");
+const path = require("path")
 
-const project = path.resolve(process.cwd(), "tsconfig.json");
+const project = path.resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
   extends: [
@@ -28,13 +28,7 @@ module.exports = {
   },
   ignorePatterns: ["*.json", "node_modules/", "dist/"],
   overrides: [{ files: ["*.js?(x)", "*.ts?(x)"] }],
-  plugins: [
-    "@typescript-eslint",
-    "react",
-    "autofix",
-    "react-hooks",
-    "prettier",
-  ],
+  plugins: ["@typescript-eslint", "react", "autofix", "react-hooks", "prettier"],
   settings: {
     react: {
       version: "detect",
@@ -81,4 +75,4 @@ module.exports = {
       { ignore: ["\\@.*$"] }, // all our aliases start with a @ sign
     ],
   },
-};
+}

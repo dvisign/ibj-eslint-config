@@ -1,6 +1,6 @@
 {
   "name": "@dvisign/ibj-eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "",
   "main": "./dist/index.js",
   "files": [
@@ -13,8 +13,8 @@
   "author": "dvisign",
   "exports": {
     ".": "./dist/index.js",
-    "./library.js": "./dist/cjs/library.js",
-    "./next.js": "./dist/cjs/next.js"
+    "./library-config": "./dist/cjs/library.js",
+    "./next-config": "./dist/cjs/next-config.js"
   },
   "scripts": {
     "build": "rollup -c --verbose",
