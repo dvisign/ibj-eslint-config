@@ -1,4 +1,4 @@
-import libraryLintConfig from "./library";
-import nextLintConfig from "./next";
+import libraryLintConfig from "./library"
+import nextLintConfig from "./next"
 
-export { libraryLintConfig, nextLintConfig };
+export { libraryLintConfig, nextLintConfig }
