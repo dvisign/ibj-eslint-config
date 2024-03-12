@@ -1,6 +1,6 @@
 {
   "name": "@dvisign/ibj-eslint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "./dist/index.js",
   "files": [
@@ -28,7 +28,7 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
-    "@dvisign/ibj-typescript-config": "^0.0.2",
+    "@dvisign/ibj-typescript-config": "^0.0.3",
     "@rollup/plugin-alias": "^5.1.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -74,7 +74,7 @@
     "webpack-node-externals": "^3.0.0"
   },
   "peerDependencies": {
-    "@dvisign/ibj-typescript-config": "^0.0.2",
+    "@dvisign/ibj-typescript-config": "^0.0.3",
     "@types/eslint": "^8.56.1",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
