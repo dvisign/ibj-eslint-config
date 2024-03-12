@@ -1,0 +1,13 @@
+{
+  "extends": "@dvisign/ibj-typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowJs": true,
+    "module": "ES6",
+    "noEmit": false,
+    "declaration": true
+  },
+  "include": [".eslintrc.js", "./src/index.ts", "rollup.config.mjs"],
+  "exclude": ["node_modules"],
+  "ignorePattern": ["dist/*"]
+}
