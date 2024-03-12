@@ -24,11 +24,11 @@ export default {
       targets: [
         {
           src: "./src/library.js",
-          dest: "dist",
+          dest: "dist/cjs",
         },
         {
           src: "./src/next.js",
-          dest: "dist",
+          dest: "dist/cjs",
         },
       ],
     }),
